@@ -12,9 +12,11 @@ const Sidebar = () => {
                     <GitHubIcon
                         className="social-icon"
                         onClick={() =>
-                            window.open("https://github.com/jainaayush01", "_blank")
+                            window.open(
+                                "https://github.com/jainaayush01",
+                                "_blank"
+                            )
                         }
-                        // style={{   }}
                     />
                     <LinkedInIcon
                         className="social-icon"
@@ -34,18 +36,13 @@ const Sidebar = () => {
                             )
                         }
                     />
-                </div>
-                <div
-                    className="mail"
-                    onClick={() =>
-                        (window.location.href =
-                            "mailto: imjainaayush@gmail.com")
-                    }
-                >
-                    <p className="email-id social-icon">
-                        imjainaayush@gmail.com
-                    </p>
-                    <EmailIcon className="social-icon"/>
+                    <EmailIcon
+                        className="social-icon"
+                        onClick={() =>
+                            (window.location.href =
+                                "mailto: imjainaayush@gmail.com")
+                        }
+                    />
                 </div>
             </div>
         </Fragment>
