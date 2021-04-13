@@ -24,6 +24,9 @@
     justify-content: space-around;
 }
 
-.navbar-item {
+.navbar{
     list-style: none;
+}
+
+.navbar-item {
 }
